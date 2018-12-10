@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name      Backmarket Rate Page Fix
-// @version 	  4.4
+// @version 	  4.5
 // @grant  	  none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author     Zortor
