@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Backmarket Rate Page Fix
-// @version  	    2
+// @version  	    3
 // @grant    	    none
 // @require         http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author          Zortor
@@ -8,7 +8,7 @@
 
 (function() {
     'use strict';
-var node = document.querySelector('[title="Page suivante"]');
+var node = document.querySelector('[title="Test suivante"]');
 var nodeBack = document.querySelector('[title="Page précédente"]');
 var pageRate = document.querySelector('.merchants-orders-rates');
 var pageListing = document.querySelector('.merchants-listings-listings');
