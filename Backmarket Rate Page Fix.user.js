@@ -5,7 +5,7 @@
 // @require         http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author          Zortor
 // @updateURL       https://github.com/Zortor58/Backmarket/blob/master/Backmarket%20Rate%20Page%20Fix.user.js
-// @match           *://*/*
+// @include         https://www.backmarket.fr/bo_merchant/*
 // ==/UserScript==
 
 (function() {
