@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name            Backmarket Rate Page Fix
-// @version  	    3
+// @version  	    4
 // @grant    	    none
 // @require         http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author          Zortor
+// @include         https://www.backmarket.fr/bo_merchant/sav/
+// @include         https://www.backmarket.fr/bo_merchant/rates/
 // ==/UserScript==
 
 (function() {
