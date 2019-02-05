@@ -260,7 +260,7 @@
         var savItems = document.getElementsByClassName("list");
         var arr2 = Array.prototype.slice.call( savItems[0].children[1].children );
         arr2.forEach(function(element) {
-            var win = window.open(element.cells[8].childNodes[1].href, '_blank');
+            var win = window.open(element.cells[7].childNodes[1].href, '_blank');
             win.focus();
         });
     }
