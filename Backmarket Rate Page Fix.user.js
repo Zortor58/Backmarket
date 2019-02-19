@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Backmarket Rate Page Fix
-// @version 	4.5.4
+// @version 	4.5.5
 // @grant  	    none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author      Zortor
@@ -231,7 +231,7 @@
                     $("#id_message").val("Bonjour,\n\nVotre colis est indiqué comme livré, et vous contestez la livraison de ce dernier.\n\nNous vous demandons de bien vouloir nous fournir une lettre de dénégation de signature (exemple en pièce jointe) ainsi que la copie de votre pièce d'identité recto-verso.\n\nNous vous remercions également de nous fournir une copie d'un dépôt de plainte, fait au commissariat ou à la gendarmerie la plus proche pour vol, et une attestation sur l'honneur vous engageant à refuser ou retourner le colis s'il venait à vous être présenté.\n\nCes documents sont tous nécessaires à l’ouverture d’une enquête par Chronopost. Nous ne pourrons pas agir tant que nous ne serons pas en possession de l’intégralité de ces derniers.\n\nCordialement,\nLe service client MobileRachat");
                     break;
                 case 'Expédition Commande':
-                    $("#id_message").val("Bonjour,\n\nLe délai de 24h indiqué correspond au délai de livraison.\nToute commande passée avant 13h un jour ouvré (lundi à vendredi) est validée et expédiée le jour-même.\nToute commande passée après 13h durant la semaine est validée et expédiée le jour ouvré suivant durant la semaine (lundi à vendredi avant 13h) ou le lundi pour une commande passé entre le vendredi (après 13h) et le dimanche.\n\nCordialement,\nLe service client MobileRachat.");
+                    $("#id_message").val("Bonjour,\n\nLe délai de 24h indiqué correspond au délai de livraison.\nToute commande passée avant 13h un jour ouvré (lundi à vendredi) est validée et expédiée le jour-même.\nToute commande passée après 13h durant la semaine est validée et expédiée le jour ouvré suivant durant la semaine (lundi à vendredi avant 13h) ou le lundi pour une commande passée entre le vendredi (après 13h) et le dimanche.\nVotre commande sera donc expédiée ce soir pour vous arriver demain (hors Corse).\n\nCordialement,\nLe service client MobileRachat.")
                     break;
                 case 'Plus De 6 Mois':
                     $("#id_message").val("Bonjour,\n\nCela fait maintenant plus de 6 mois que votre appareil est dans nos locaux. D'après notre charte, il vous reste une semaine pour régler les frais de renvoi et récupérer l'appareil avant qu'il ne soit recyclé.\n\nCordialement,\nLe service client MobileRachat.");
