@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Backmarket Rate Page Fix
 // @namespace   www.mobilerachat.com
-// @version 	4.5.6
+// @version 	4.5.7
 // @grant  	    none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author      Zortor
