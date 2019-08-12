@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Backmarket Rate Page Fix
 // @namespace   www.mobilerachat.com
-// @version 	4.5.8
+// @version 	4.5.9
 // @grant  	    none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @author      Zortor
@@ -25,6 +25,18 @@
     var nameBack = document.getElementsByClassName("bubble-infos");
     var arrBack = Array.prototype.slice.call( nameBack );
     var i = 1;
+
+    $("#id_message").keyup(function(){
+            var str = $("#id_message").val();
+            var n = str.includes("joint");
+            var r = str.includes("Joint");
+            var p = str.includes("attach");
+            var t = str.includes("Attach");
+            var msg = 'Avez-vous oublié la pièce jointe ?';
+            if(n == true || p == true || r == true || t == true) {
+                alert(msg);
+            }
+        });
 
     if(templates != null) {
         $('#selectTemplates')
